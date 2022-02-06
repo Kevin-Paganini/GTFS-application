@@ -1,0 +1,65 @@
+.button {
+    -fx-background-radius: 0px;
+    -fx-background-color: #1e3d59;
+    -fx-text-fill: white;
+    -fx-padding: 2;
+    -fx-border-radius: 2;
+}
+
+.button:hover {
+    -fx-background-color: rgb(156, 60, 61);
+}
+
+.root {
+    -fx-background-color: #f5f0e1;
+}
+
+.table {
+    -fx-background-color: #1e3d59;
+    -fx-text-fill: white;
+    -fx-background-radius: 10px;
+    -fx-scale-shape: true;
+    -fx-margin: 8px;
+}
+
+.odd-grid-cell {
+    -fx-background-color: #81b8eb;
+    -fx-text-fill: black;
+    -fx-scale-shape: true;
+    -fx-pref-height: 20px;
+    -fx-min-height: 20px;
+}
+
+.even-grid-cell {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: black;
+    -fx-scale-shape: true;
+    -fx-pref-height: 20px;
+    -fx-min-height: 20px;
+}
+
+.table-header {
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-background-radius: 2px;
+    -fx-scale-shape: true;
+}
+
+#headerLabel {
+    -fx-padding: 6px;
+}
+
+#dataLabel {
+    -fx-background-color: rgb(67, 69, 74);
+    -fx-background-radius: 2px;
+    -fx-padding: 6px, 3px, 6px, 3px;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-margin: 6px;
+}
+
+.tab-pane:top *.tab-header-area {
+    -fx-background-color: #ffc13b;
+}
